@@ -1,0 +1,92 @@
+/* UserRegister.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .form-card {
+    width: 100%;
+        background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #1881d7c9;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-control:focus {
+    border-color: #00695c;
+    box-shadow: 0 0 5px rgba(0, 105, 92, 0.2);
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color:#1881d7c9;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #004d40;
+  }
+  
+  @media (max-width: 600px) {
+    .form-card {
+      padding: 10px;
+    }
+  
+    .card-header,
+    .card-body {
+      padding: 10px;
+    }
+  
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,15 @@
+/* UserLoginForm.css */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../images/TURFIMAGE.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form-card {
+    background-color: rgba(252, 248, 248, 0.8); /* White background with 80% opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for better contrast */
+  }
